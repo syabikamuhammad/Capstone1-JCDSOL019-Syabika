@@ -148,7 +148,7 @@ def main():
 
         masukan_nik = int(input("Masukkan NIK karyawan Anda : "))
 
-        found = False
+        found = True
         for employee in nik_karyawan:
             if employee['nik'] == masukan_nik:
                 print(f"Selamat datang {employee['nama']}")
